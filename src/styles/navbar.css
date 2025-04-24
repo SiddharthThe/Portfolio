@@ -1,0 +1,12 @@
+.navbar {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+
+.nav-links a {
+  color: var(--white);
+}
+
+.nav-links a:hover {
+  color: var(--accent-color);
+}

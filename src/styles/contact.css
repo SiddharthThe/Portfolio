@@ -1,0 +1,16 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 160px 160px 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 40vh;
+    width: 15vw;
+    background-color: white;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+}
