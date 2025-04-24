@@ -59,3 +59,19 @@
     font-weight: bold;
     font-size: 1.2rem;
 }
+
+@media (max-width: 768px) {
+  .edu-container {
+    width: 90vw;
+    margin-left: 0;
+  }
+
+  .education-content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .education-item {
+    width: 100%;
+  }
+}
