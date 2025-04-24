@@ -1,3 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 .footer-container {
     display: flex;
     flex-direction: column;
@@ -32,7 +38,7 @@ footer a {
   .footer-container {
     flex-direction: column;
     padding: 1rem;
-    height: auto;
+    text-align: center;
   }
 
   footer p {

@@ -9,7 +9,7 @@ const Intro = () => {
     <div id='intro' className='intro'>
         
         <div  className='intro-text'>
-            <p>Hi,</p>
+            <p>Hi!,</p>
             <h2>I'm Siddharth Vhatkar</h2>
             <h3>React Developer | Mobile App Developer (React-Native)</h3>
         </div>
