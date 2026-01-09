@@ -1,5 +1,6 @@
-/* .hero-div{
+.hero-div{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -8,6 +9,7 @@
 }
 .hero-img{
     display: flex;
-    width: 100%;
+    width: 40%;
     height: 80%;
-} */
+    border-radius: 20px;
+}
