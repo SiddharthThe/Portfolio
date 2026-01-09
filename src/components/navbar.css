@@ -1,0 +1,17 @@
+.navbar {   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+.links{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+.nv-links{
+    text-decoration: none;
+}
