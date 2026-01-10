@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 export const Navbar = () => {
   return (
     <div className='navbar'>
-      <div className='name'>Siddharth</div>
+      <div className='name'>Siddharth v</div>
       <div className='links'>
         <Link href='#home' className='nv-links'>Home</Link>
         <Link href='#about' className='nv-links'>About</Link>

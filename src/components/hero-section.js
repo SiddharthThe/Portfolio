@@ -7,7 +7,12 @@ export const HeroSection = () => {
   return (
     <div>
       <div className='hero-div'>
-        <h1>Welcome to the Hero Section</h1>
+      <div className='hero-text'>
+        <h1>Frontend Developer</h1>
+        <p>
+          Welcome to my portfolio! 
+        </p>
+      </div>
          <img src={Hero_portrait} className="hero-img" alt="logo" />
       </div>
     </div>
