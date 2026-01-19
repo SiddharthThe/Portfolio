@@ -1,0 +1,80 @@
+.about-section {
+  padding: 96px 5% 120px;
+  background: linear-gradient(180deg, #0d0d0d 0%, #121212 100%);
+  color: #ffffff;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-header {
+  max-width: 720px;
+}
+
+.about-eyebrow {
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 12px;
+}
+
+.about-header h2 {
+  font-size: clamp(28px, 3vw, 40px);
+  margin: 0 0 16px;
+}
+
+.about-header p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.75);
+  margin: 0 0 40px;
+}
+
+.about-grid {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.about-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 24px 22px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(8px);
+}
+
+.about-card h3 {
+  margin: 0 0 12px;
+  font-size: 18px;
+}
+
+.about-card ul {
+  margin: 0;
+  padding-left: 18px;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.6;
+}
+
+.about-card li {
+  margin-bottom: 8px;
+}
+
+.about-card li:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .about-section {
+    padding: 72px 6% 96px;
+  }
+
+  .about-header h2 {
+    font-size: 28px;
+  }
+}
