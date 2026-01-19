@@ -7,6 +7,7 @@
   height: 100vh;
   width: 100%;
   padding: 0 5%;
+  gap: 40px;
   background:
     radial-gradient(circle at 30% 25%, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.03) 35%, rgba(0, 0, 0, 0) 60%),
     radial-gradient(circle at 75% 55%, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0.025) 40%, rgba(0, 0, 0, 0) 70%),
@@ -21,6 +22,8 @@
   height: 85%;
   border-radius: 20px;
   z-index: 1 ;
+  max-width: 420px;
+  object-fit: cover;
 }
 
 .hero-text {
@@ -37,4 +40,57 @@
   margin-right: auto;
   text-align: left;
   z-index: 2 ;
+}
+
+@media (max-width: 1024px) {
+  .hero-div {
+    height: auto;
+    min-height: 80vh;
+    padding: 80px 6% 60px;
+  }
+
+  .hero-text {
+    width: 65%;
+    margin-left: 0;
+    font-size: 2.4vh;
+  }
+
+  .hero-img {
+    width: 32%;
+    height: auto;
+    max-height: 60vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-div {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    padding: 70px 8% 60px;
+  }
+
+  .hero-text {
+    width: 100%;
+    font-size: 18px;
+    margin-top: 0;
+  }
+
+  .hero-img {
+    position: static;
+    transform: none;
+    width: min(70%, 360px);
+    height: auto;
+    align-self: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-div {
+    padding: 60px 6% 50px;
+  }
+
+  .hero-text h1 {
+    font-size: 28px;
+  }
 }
