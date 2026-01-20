@@ -22,20 +22,16 @@ const Contact = () => {
           <div className="contact-card">
             <h2>Reach me directly</h2>
             <p>
-              Prefer email or a quick call? Here are my direct channels.
+                Whether you have a question or just want to say hi, my inbox is always open.
             </p>
             <div className="contact-list">
               <div>
                 <span className="contact-label">Email</span>
-                <a href="mailto:siddharth@example.com">siddharth@example.com</a>
-              </div>
-              <div>
-                <span className="contact-label">Phone</span>
-                <a href="tel:+919999999999">+91 99999 99999</a>
+                <a href="mailto:siddharthvhatkar4@example.com">siddharthvhatkar4@example.com</a>
               </div>
               <div>
                 <span className="contact-label">Location</span>
-                <span>Mumbai, India</span>
+                <span>Kolhapur, India</span>
               </div>
             </div>
             <div className="contact-availability">
@@ -48,11 +44,11 @@ const Contact = () => {
             <div className="form-row">
               <div className="form-field">
                 <label htmlFor="name">Your name</label>
-                <input id="name" name="name" type="text" placeholder="Jane Doe" required />
+                <input id="name" name="name" type="text" placeholder="siddharth" required />
               </div>
               <div className="form-field">
                 <label htmlFor="email">Email</label>
-                <input id="email" name="email" type="email" placeholder="jane@email.com" required />
+                <input id="email" name="email" type="email" placeholder="siddharthvhatkar4@example.com" required />
               </div>
             </div>
             <div className="form-field">
