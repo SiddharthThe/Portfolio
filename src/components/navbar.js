@@ -10,10 +10,10 @@ export const Navbar = () => {
         <img src={SiddLogo} alt='Siddharth Vhatkar Logo' className='navbar-logo' />
       </div>
       <div className='links'>
-        <Link href='#home' className='nv-links'>Home</Link>
-        <Link href='#about' className='nv-links'>About</Link>
-        <Link href='#projects' className='nv-links'>Projects</Link>
-        <Link href='#contact' className='nv-links'>Contact</Link>
+        <Link to='/' className='nv-links'>Home</Link>
+        <a href='#about' className='nv-links'>About</a>
+        <a href='#projects' className='nv-links'>Projects</a>
+        <Link to='/contact' className='nv-links'>Contact</Link>
       </div>
       <div className='resume-link'>
         <a href='https://drive.google.com/file/d/1b0hlSR9x8fJaKHNtr7gjKMTlQGZh4PLw/view?usp=drive_link' target='_blank' rel='noopener noreferrer'>Resume</a>
