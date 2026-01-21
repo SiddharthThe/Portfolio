@@ -8,8 +8,8 @@ const projects = [
       'Personal portfolio showcasing frontend work, responsive layouts, and polished UI sections.',
     tags: ['React', 'CSS', 'UI'],
     links: {
-      live: '#',
-      repo: '#',
+      live: 'https://siddharth-11-portfolio.netlify.app/',
+      repo: 'https://github.com/SiddharthThe/Portfolio',
     },
   },
   {
@@ -19,7 +19,7 @@ const projects = [
     tags: ['JavaScript', 'Product', 'UX'],
     links: {
       live: '#',
-      repo: '#',
+      repo: 'https://github.com/Atharv-28/Valora',
     },
   },
   {
@@ -28,8 +28,8 @@ const projects = [
       'A clean, informative site for an infrastructure brand with service highlights and clear CTAs.',
     tags: ['TypeScript', 'Brand', 'Web'],
     links: {
-      live: '#',
-      repo: '#',
+      live: 'https://nirmaninfrastructure.com/',
+      repo: 'https://github.com/SiddharthThe/nirman-infrastructure',
     },
   },
   {
@@ -38,8 +38,8 @@ const projects = [
       'Frontend for a sustainable shopping experience with cart flows and product discovery.',
     tags: ['JavaScript', 'E-commerce', 'Frontend'],
     links: {
-      live: '#',
-      repo: '#',
+      live: 'https://eco-cart-frontend.vercel.app',
+      repo: 'https://github.com/Atharv-28/eco-cart_frontend',
     },
   },
 ];
@@ -50,11 +50,7 @@ export const ProjectsSection = () => {
       <div className="projects-container">
         <div className="projects-header">
           <span className="projects-eyebrow">Projects</span>
-          <h2>Selected work that highlights impact</h2>
-          <p>
-            A quick snapshot of recent builds. Each project focuses on clear UX, clean
-            architecture, and scalable components.
-          </p>
+          <h2>Highlighted Projects</h2>
         </div>
 
         <div className="projects-grid">
