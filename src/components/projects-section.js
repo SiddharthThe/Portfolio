@@ -51,6 +51,9 @@ export const ProjectsSection = () => {
         <div className="projects-header">
           <span className="projects-eyebrow">Projects</span>
           <h2>Highlighted Projects</h2>
+          <p className="projects-subtitle">
+            Recent work across product UX, brand sites, and web interfaces.
+          </p>
         </div>
 
         <div className="projects-grid">
@@ -68,11 +71,13 @@ export const ProjectsSection = () => {
                 ))}
               </div>
               <div className="project-links">
-                <a href={project.links.live} target="_blank" rel="noopener noreferrer">
-                  Live Demo
-                </a>
-                <a href={project.links.repo} target="_blank" rel="noopener noreferrer">
-                  Source Code
+                {project.links.live && project.links.live !== '#' && (
+                  <a href={project.links.live} target="_blank" rel="noopener noreferrer" className="project-link-button">
+                    View Live
+                  </a>
+                )}
+                <a href={project.links.repo} target="_blank" rel="noopener noreferrer" className="project-link-button">
+                  Source
                 </a>
               </div>
             </article>
