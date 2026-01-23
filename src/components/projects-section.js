@@ -18,7 +18,7 @@ const projects = [
       'An AI-powered mock interview platform focused on practice flows and feedback-driven improvement.',
     tags: ['JavaScript', 'Product', 'UX'],
     links: {
-      live: '#',
+      live: null,
       repo: 'https://github.com/Atharv-28/Valora',
     },
   },
@@ -71,7 +71,7 @@ export const ProjectsSection = () => {
                 ))}
               </div>
               <div className="project-links">
-                {project.links.live && project.links.live !== '#' && (
+                {project.links.live && (
                   <a href={project.links.live} target="_blank" rel="noopener noreferrer" className="project-link-button">
                     View Live
                   </a>
