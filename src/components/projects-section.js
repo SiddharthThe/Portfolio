@@ -1,5 +1,6 @@
 import React from 'react';
 import './projects-section.css';
+import { ProjectCard } from './project-card';
 
 const projects = [
   {
@@ -58,29 +59,7 @@ export const ProjectsSection = () => {
 
         <div className="projects-grid">
           {projects.map((project) => (
-            <article className="project-card" key={project.title}>
-              <div className="project-card-header">
-                <h3>{project.title}</h3>
-                <p>{project.description}</p>
-              </div>
-              <div className="project-tags">
-                {project.tags.map((tag) => (
-                  <span className="project-tag" key={tag}>
-                    {tag}
-                  </span>
-                ))}
-              </div>
-              <div className="project-links">
-                {project.links.live && (
-                  <a href={project.links.live} target="_blank" rel="noopener noreferrer" className="project-link-button">
-                    View Live
-                  </a>
-                )}
-                <a href={project.links.repo} target="_blank" rel="noopener noreferrer" className="project-link-button">
-                  Source
-                </a>
-              </div>
-            </article>
+            <ProjectCard key={project.title} project={project} />
           ))}
         </div>
       </div>
