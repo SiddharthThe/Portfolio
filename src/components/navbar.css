@@ -2,7 +2,7 @@
     position: sticky;
     top: 0;
     z-index: 1000;
-    background: rgba(10, 10, 15, 0.75);
+    background: rgba(26, 26, 26, 0.6);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
@@ -10,7 +10,7 @@
 }
 
 .navbar-scrolled {
-    background: rgba(10, 10, 15, 0.95);
+    background: rgba(26, 26, 26, 0.85);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
     border-bottom-color: rgba(255, 255, 255, 0.12);
 }
@@ -19,7 +19,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 30px;
+    padding: 20px 40px;
     max-width: 1400px;
     margin: 0 auto;
     gap: 20px;
@@ -50,6 +50,7 @@
     text-decoration: none;
     color: rgba(255, 255, 255, 0.85);
     font-weight: 500;
+    font-size: 16px;
     letter-spacing: 0.3px;
     padding: 8px 4px;
     transition: all 0.3s ease;
@@ -86,9 +87,9 @@
 }
 
 .navbar-logo {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    border-radius: 12px;
     border: 2px solid rgba(255, 255, 255, 0.25);
     padding: 6px;
     background: rgba(30, 30, 30, 0.95);
